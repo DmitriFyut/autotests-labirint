@@ -16,6 +16,7 @@ Python и фреймворка Selenium. Для запусков тестов н
 Как запустить:
 
 Скачать драйвер для Chrome: https://chromedriver.chromium.org/downloads
+ или  Firefox: https://github.com/mozilla/geckodriver/releases
 
 Установите все необходимые библиотеки пакетов Python
 
