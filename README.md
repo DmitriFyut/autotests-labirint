@@ -20,6 +20,8 @@ Python и фреймворка Selenium. Для запусков тестов н
 
 Установите все необходимые библиотеки пакетов Python
 
+Откройте Терминал
+
 Запустите в терминале строку:
 
 python -m pytest -v --driver Chrome --driver-path /path/to//chromedriver.exe
