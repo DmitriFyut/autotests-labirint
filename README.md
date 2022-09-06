@@ -23,6 +23,15 @@ Python и фреймворка Selenium. Для запусков тестов н
 
 python -m pytest -v --driver Chrome --driver-path /path/to//chromedriver.exe
 
-или Запустите нажатием соответствующей кнопки с помощью RUN файл pytest in test_for_labirint.py
+Теперь каждый раз для запуска тестов необходимо указать, какой именно браузер мы хотим использовать, и путь к его драйверу (не забываем заменить /path/to/ на свой путь):
+
+pytest -v --driver Chrome --driver-path /path/to//chromedriver.exe
+или
+
+pytest --driver Firefox --driver-path /path/to/geckodriver.exe 
+
+или Запустите нажатием соответствующей кнопки с помощью RUN файл: pytest in test_for_labirint.py
+
+Приятного тестирования)
 
 
